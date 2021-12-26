@@ -1,0 +1,3307 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "trex"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_options",
+			"target_link_directories",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 315,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 313,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 314,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 180,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 113,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++17 -g3 -g -Wno-format -Wno-deprecated-declarations -Wno-error=uninitialized -march=native -mssse3 -msse4.1 -mpclmul -g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "INTEGRATED_VF"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LINUX"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PF_DRIVER"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "RTE_COMPILE_TIME_CPUFLAGS=RTE_CPUFLAG_SSE3,RTE_CPUFLAG_SSE,DRTE_CPUFLAG_SSE2,DRTE_CPUFLAG_SSSE3,RTE_CPUFLAG_SSE4_1,RTE_CPUFLAG_SSE4_2,RTE_CPUFLAG_AES,RTE_CPUFLAG_PCLMULQDQ,RTE_CPUFLAG_AVX"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "RTE_DPDK"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "RTE_MACHINE_CPUFLAG_AES"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "RTE_MACHINE_CPUFLAG_AVX"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "RTE_MACHINE_CPUFLAG_PCLMULQDQ"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "RTE_MACHINE_CPUFLAG_SSE"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "RTE_MACHINE_CPUFLAG_SSE2"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "RTE_MACHINE_CPUFLAG_SSE3"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "RTE_MACHINE_CPUFLAG_SSE4_1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "RTE_MACHINE_CPUFLAG_SSE4_2"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "RTE_MACHINE_CPUFLAG_SSSE3"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "TAP_MAX_QUEUES=16"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "TREX_USE_BPFJIT"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "VF_DRIVER"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WIN_UCODE_SIM"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "X722_A0_SUPPORT"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "X722_SUPPORT"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_BYTE_ORDER"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_LITTLE_ENDIAN"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/drivers"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/publisher"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/utils"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/stx/common"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/stx/stf"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/stx/stl"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/stx/astf"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/stx/astf_batch"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/pal/linux_dpdk"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/pal/linux_dpdk/dpdk2002_x86_64"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_cfgfile"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_cryptodev"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_eal"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_ethdev"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_eventdev"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_gro"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_gso"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_hash"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_kni"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_kvargs"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_mbuf"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_mempool"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_meter"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_net"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_pci"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_pdump"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_pipeline"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_port"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_reorder"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_rib"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_ring"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_security"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_timer"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_eal/common/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_eal/linux/eal/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_eal/common/include/arch/x86"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/drivers/net/i40e"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/drivers/bus/pci"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/pal/common"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/hdrh"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/stx"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/external_libs/json"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/external_libs/bpf"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/external_libs/zmq/x86_64/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/external_libs/yaml-cpp/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/external_libs/md5"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_eal/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_eal/x86/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/lib/librte_eal/linux/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/drivers/net/ntacc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/trex/trex-core/src/dpdk/drivers"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98
+			]
+		}
+	],
+	"id" : "trex::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-std=c++17 -g3 -g -Wno-format -Wno-deprecated-declarations -Wno-error=uninitialized -march=native -mssse3 -msse4.1 -mpclmul -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/44bsd/tcp_output.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/44bsd/tcp_timer.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/44bsd/tcp_debug.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/44bsd/tcp_subr.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/44bsd/flow_table.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/44bsd/tcp_input.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/44bsd/tcp_usrreq.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/44bsd/tcp_socket.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/44bsd/tcp_dpdk.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/44bsd/sch_rampup.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/44bsd/tick_cmd_clock.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/44bsd/udp.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/tunnels/gtp_man.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/hdrh/hdr_time.c.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/hdrh/hdr_encoding.c.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/hdrh/hdr_histogram.c.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/hdrh/hdr_histogram_log.c.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/astf/astf_template_db.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/pal/linux_dpdk/pal_utl.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/pal/linux_dpdk/mbuf.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/pal/common/common_mbuf.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/astf/astf_db.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/astf/astf_json_validator.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/common/basic_utils.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/common/captureFile.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/common/erf.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/common/pcap.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/common/base64.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/common/n_uniform_prob.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/common/Network/Packet/CPktCmn.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/common/Network/Packet/EthernetHeader.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/common/Network/Packet/IPHeader.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/common/Network/Packet/IPv6Header.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/common/Network/Packet/TCPHeader.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/common/Network/Packet/TCPOptions.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/common/Network/Packet/UDPHeader.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/common/Network/Packet/MacAddress.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/common/Network/Packet/VLANHeader.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/aliasmanager.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/binary.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/contrib/graphbuilder.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/contrib/graphbuilderadapter.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/conversion.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/directives.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/emitfromevents.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/emitter.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/emitterstate.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/emitterutils.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/exp.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/iterator.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/node.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/nodebuilder.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/nodeownership.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/null.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/ostream.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/parser.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/regex.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/scanner.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/scanscalar.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/scantag.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/scantoken.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/simplekey.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/singledocparser.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/stream.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/yaml-cpp/src/tag.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/json/jsoncpp.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/external_libs/md5/md5.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/rpc-server/trex_rpc_server.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/rpc-server/trex_rpc_req_resp_server.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/rpc-server/trex_rpc_jsonrpc_v2_parser.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/rpc-server/trex_rpc_cmds_table.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/rpc-server/trex_rpc_cmd.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/rpc-server/trex_rpc_zip.cpp.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/linux_dpdk/version.c.8.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk_funcs.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/bus/pci/pci_common.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/bus/pci/pci_common_uio.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/bus/pci/pci_params.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/bus/pci/linux/pci.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/bus/pci/linux/pci_uio.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/bus/pci/linux/pci_vfio.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/bus/vdev/vdev.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/bus/vdev/vdev_params.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/bus/vmbus/vmbus_common.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/bus/vmbus/vmbus_channel.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/bus/vmbus/vmbus_bufring.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/bus/vmbus/vmbus_common_uio.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/bus/vmbus/linux/vmbus_bus.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/bus/vmbus/linux/vmbus_uio.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/mempool/ring/rte_mempool_ring.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/bnxt_cpr.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/bnxt_ethdev.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/bnxt_filter.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/bnxt_flow.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/bnxt_hwrm.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/bnxt_irq.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/bnxt_ring.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/bnxt_rxq.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/bnxt_rxr.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/bnxt_reps.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/bnxt_stats.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/bnxt_txq.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/bnxt_txr.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/bnxt_util.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/bnxt_vnic.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/rte_pmd_bnxt.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/bnxt_rxtx_vec_sse.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_core/tf_core.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_core/bitalloc.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_core/tf_msg.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_core/rand.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_core/stack.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_core/tf_em_common.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_core/tf_em_internal.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_core/tf_rm.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_core/tf_tbl.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_core/tfp.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_core/tf_session.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_core/tf_device.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_core/tf_device_p4.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_core/tf_identifier.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_core/tf_shadow_tbl.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_core/tf_shadow_tcam.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_core/tf_tcam.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_core/tf_util.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_core/tf_if_tbl.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_core/ll.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_core/tf_global_cfg.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_core/tf_em_host.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_core/tf_shadow_identifier.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_core/tf_hash.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/hcapi/hcapi_cfa_p4.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_ulp/bnxt_ulp.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_ulp/ulp_mark_mgr.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_ulp/ulp_flow_db.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_ulp/ulp_template_db_tbl.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_ulp/ulp_template_db_class.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_ulp/ulp_template_db_act.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_ulp/ulp_utils.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_ulp/ulp_mapper.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_ulp/ulp_matcher.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_ulp/ulp_rte_parser.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_ulp/bnxt_ulp_flow.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_ulp/ulp_port_db.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_ulp/ulp_def_rules.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_ulp/ulp_fc_mgr.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_ulp/ulp_tun.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_ulp/ulp_template_db_wh_plus_act.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_ulp/ulp_template_db_wh_plus_class.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_ulp/ulp_template_db_stingray_act.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bnxt/tf_ulp/ulp_template_db_stingray_class.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/e1000/base/e1000_base.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/e1000/base/e1000_80003es2lan.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/e1000/base/e1000_82540.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/e1000/base/e1000_82541.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/e1000/base/e1000_82542.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/e1000/base/e1000_82543.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/e1000/base/e1000_82571.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/e1000/base/e1000_82575.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/e1000/base/e1000_api.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/e1000/base/e1000_i210.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/e1000/base/e1000_ich8lan.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/e1000/e1000_logs.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/e1000/base/e1000_mac.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/e1000/base/e1000_manage.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/e1000/base/e1000_mbx.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/e1000/base/e1000_nvm.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/e1000/base/e1000_osdep.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/e1000/base/e1000_phy.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/e1000/base/e1000_vf.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/e1000/em_ethdev.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/e1000/em_rxtx.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/e1000/igb_flow.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/e1000/igb_ethdev.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/e1000/igb_pf.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/e1000/igb_rxtx.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/memif/memif_socket.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/memif/rte_eth_memif.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/virtio/virtio.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/virtio/virtio_ethdev.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/virtio/virtio_pci.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/virtio/virtio_pci_ethdev.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/virtio/virtio_rxtx.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/virtio/virtio_rxtx_simple.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/virtio/virtqueue.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/virtio/virtio_user_ethdev.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/virtio/virtio_user/vhost_vdpa.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/virtio/virtio_user/vhost_kernel.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/virtio/virtio_user/vhost_kernel_tap.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/virtio/virtio_user/vhost_user.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/virtio/virtio_user/virtio_user_dev.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/common/iavf/iavf_adminq.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/common/iavf/iavf_common.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/common/iavf/iavf_impl.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_rcu/rte_rcu_qsbr.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_cfgfile/rte_cfgfile.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_hypervisor.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_dynmem.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_bus.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_class.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_cpuflags.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_debug.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_dev.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_devargs.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_errno.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_fbarray.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_hexdump.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_launch.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_lcore.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_log.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_memalloc.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_memory.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_memzone.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_mcfg.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_options.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_proc.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_string_fns.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_tailqs.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_thread.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_timer.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_config.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_trace.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_trace_ctf.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_trace_points.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_trace_utils.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/eal_common_uuid.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/rte_reciprocal.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/hotplug_mp.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/malloc_elem.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/malloc_heap.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/malloc_mp.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/rte_keepalive.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/rte_malloc.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/rte_service.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/common/rte_random.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/unix/eal_unix_timer.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/unix/eal_unix_memory.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/unix/eal_file.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/unix/rte_thread.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/linux/eal.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/linux/eal_alarm.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/linux/eal_cpuflags.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/linux/eal_debug.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/linux/eal_hugepage_info.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/linux/eal_interrupts.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/linux/eal_lcore.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/linux/eal_log.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/linux/eal_memalloc.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/linux/eal_memory.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/linux/eal_thread.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/linux/eal_timer.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/linux/eal_vfio_mp_sync.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/linux/eal_vfio.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/linux/eal_dev.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_ethdev/rte_ethdev.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_ethdev/rte_flow.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_ethdev/ethdev_trace_points.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_ethdev/ethdev_private.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_ethdev/rte_class_eth.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_ethdev/ethdev_profile.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_ethdev/rte_mtr.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_ethdev/rte_tm.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_telemetry/telemetry.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_telemetry/telemetry_data.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_telemetry/telemetry_legacy.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_hash/rte_cuckoo_hash.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_kvargs/rte_kvargs.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_mbuf/rte_mbuf.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_mbuf/rte_mbuf_dyn.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_mbuf/rte_mbuf_ptype.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_mbuf/rte_mbuf_pool_ops.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_mempool/rte_mempool.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_mempool/rte_mempool_ops.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_mempool/rte_mempool_ops_default.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_mempool/mempool_trace_points.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_net/rte_ether.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_net/rte_net.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_net/rte_net_crc.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_net/rte_arp.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_pci/rte_pci.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_ring/rte_ring.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_timer/rte_timer.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_gso/rte_gso.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_gso/gso_tunnel_udp4.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_gso/gso_common.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_gso/gso_tcp4.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_gso/gso_tunnel_tcp4.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_gso/gso_udp4.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/i40e/base/i40e_adminq.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/i40e/base/i40e_common.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/i40e/base/i40e_dcb.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/i40e/base/i40e_diag.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/i40e/base/i40e_hmc.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/i40e/base/i40e_lan_hmc.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/i40e/base/i40e_nvm.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/i40e/i40e_hash.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/i40e/i40e_ethdev.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/i40e/i40e_ethdev_vf.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/i40e/i40e_fdir.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/i40e/i40e_flow.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/i40e/i40e_pf.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/i40e/i40e_rxtx.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/i40e/i40e_tm.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/i40e/i40e_vf_representor.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/i40e/rte_pmd_i40e.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/enic/enic_ethdev.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/enic/base/vnic_intr.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/enic/base/vnic_rq.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/enic/base/vnic_wq.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/enic/base/vnic_dev.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/enic/base/vnic_cq.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/enic/enic_vf_representor.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/enic/enic_flow.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/enic/enic_fm_flow.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/enic/enic_rxtx.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/enic/enic_res.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/enic/enic_main.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ice/base/ice_vlan_mode.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ice/base/ice_acl.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ice/base/ice_acl_ctrl.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ice/base/ice_controlq.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ice/base/ice_common.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ice/base/ice_sched.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ice/base/ice_switch.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ice/base/ice_nvm.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ice/base/ice_flex_pipe.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ice/base/ice_flow.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ice/base/ice_dcb.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ice/base/ice_fdir.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ice/ice_dcf_vf_representor.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ice/ice_acl_filter.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ice/ice_dcf.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ice/ice_dcf_ethdev.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ice/ice_dcf_parent.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ice/ice_ethdev.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ice/ice_rxtx.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ice/ice_rxtx_vec_sse.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ice/ice_switch_filter.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ice/ice_fdir_filter.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ice/ice_hash.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ice/ice_generic_flow.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ixgbe/base/ixgbe_82598.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ixgbe/base/ixgbe_82599.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ixgbe/base/ixgbe_api.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ixgbe/base/ixgbe_common.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ixgbe/base/ixgbe_dcb.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ixgbe/base/ixgbe_dcb_82598.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ixgbe/base/ixgbe_dcb_82599.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ixgbe/base/ixgbe_hv_vf.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ixgbe/base/ixgbe_mbx.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ixgbe/base/ixgbe_phy.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ixgbe/base/ixgbe_vf.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ixgbe/base/ixgbe_x540.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ixgbe/base/ixgbe_x550.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ixgbe/ixgbe_ethdev.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ixgbe/ixgbe_fdir.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ixgbe/ixgbe_flow.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ixgbe/ixgbe_pf.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ixgbe/ixgbe_rxtx.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ixgbe/ixgbe_rxtx_vec_sse.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ixgbe/ixgbe_tm.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ixgbe/ixgbe_vf_representor.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ixgbe/rte_pmd_ixgbe.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/i40e/i40e_rxtx_vec_sse.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/virtio/virtio_rxtx_simple_sse.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/vmxnet3/vmxnet3_ethdev.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/vmxnet3/vmxnet3_rxtx.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/af_packet/rte_eth_af_packet.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ena/ena_ethdev.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ena/base/ena_com.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/ena/base/ena_eth_com.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/x86/rte_cpuflags.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/x86/rte_spinlock.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/x86/rte_cycles.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_eal/x86/rte_hypervisor.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/failsafe/failsafe.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/failsafe/failsafe_args.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/failsafe/failsafe_eal.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/failsafe/failsafe_ops.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/failsafe/failsafe_rxtx.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/failsafe/failsafe_ether.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/failsafe/failsafe_flow.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/failsafe/failsafe_intr.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/vdev_netvsc/vdev_netvsc.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/netvsc/hn_ethdev.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/netvsc/hn_rxtx.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/netvsc/hn_rndis.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/netvsc/hn_nvs.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/netvsc/hn_vf.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_ip_frag/rte_ipv4_fragmentation.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_ip_frag/rte_ipv6_fragmentation.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_ip_frag/rte_ipv4_reassembly.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_ip_frag/rte_ipv6_reassembly.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_ip_frag/rte_ip_frag_common.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/lib/librte_ip_frag/ip_frag_internal.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bonding/rte_eth_bond_api.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bonding/rte_eth_bond_pmd.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bonding/rte_eth_bond_flow.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bonding/rte_eth_bond_args.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bonding/rte_eth_bond_8023ad.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/dpdk/drivers/net/bonding/rte_eth_bond_alb.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/drivers/trex_ixgbe_fdir.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/src/trex/trex-core/linux_dpdk/build_dpdk/src/drivers/trex_i40e_fdir.c.4.o",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-L/usr/src/trex/trex-core/linux_dpdk",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-L/usr/src/trex/trex-core/linux_dpdk/build_dpdk/linux_dpdk",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-L/usr/src/trex/trex-core/external_libs/zmq/x86_64",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/usr/src/trex/trex-core/linux_dpdk:/usr/src/trex/trex-core/linux_dpdk/build_dpdk/linux_dpdk:/usr/src/trex/trex-core/external_libs/zmq/x86_64",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-Wl,-rpath,so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-Wl,-rpath,so/x86_64",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-Wl,-Bstatic",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-Wl,-Bdynamic",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lbpf-64-debug",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lzmq",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lz",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "trex",
+	"nameOnDisk" : "trex",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/bp_sim_stf.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/bp_sim_tcp.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/bp_sim.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/debug.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/dpdk_drv_filter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/dpdk_port_map.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/dpdk_trex_port_attr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/flow_stat_parser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/global_io_mode.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/h_timer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/inet_pton.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main_dpdk.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg_manager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nat_check_flow_table.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nat_check.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/os_time.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/pkt_gen.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/platform_cfg.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/pre_test.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/rx_check_header.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/rx_check.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stateful_rx_core.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stt_cp.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/time_histogram.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/timer_wheel_pq.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/trex_build_info.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/trex_client_config.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/trex_global.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/trex_modes.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/trex_platform.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/trex_port_attr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/trex_watchdog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/tuple_gen.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/tw_cfg.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/drivers/trex_driver_base.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/drivers/trex_driver_bnxt.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/drivers/trex_driver_i40e.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/drivers/trex_driver_igb.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/drivers/trex_driver_ixgbe.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/drivers/trex_driver_mlx5.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/drivers/trex_driver_ntacc.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/drivers/trex_driver_vic.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/drivers/trex_driver_virtual.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/drivers/trex_driver_ice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/publisher/trex_publisher.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/utils/utl_counter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/utils/utl_cpuu.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/utils/utl_dbl_human.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/utils/utl_ip.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/utils/utl_json.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/utils/utl_mbuf.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/utils/utl_offloads.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/utils/utl_policer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/utils/utl_port_map.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/utils/utl_sync_barrier.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/utils/utl_term_io.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/utils/utl_yaml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/common/trex_capture.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/common/trex_dp_core.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/common/trex_dp_port_events.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/common/trex_latency_counters.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/common/trex_messaging.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/common/trex_owner.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/common/trex_pkt.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/common/trex_port.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/common/trex_rpc_cmds_common.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/common/trex_rx_core.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/common/trex_rx_packet_parser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/common/trex_rx_port_mngr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/common/trex_rx_rpc_tunnel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/common/trex_rx_tx.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/common/trex_stack_base.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/common/trex_stack_counters.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/common/trex_stack_legacy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/common/trex_stack_linux_based.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/common/trex_stx.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/common/trex_vlan_filter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/common/trex_tpg_stats.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/stf/trex_stf.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/stl/trex_stl_dp_core.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/stl/trex_stl_fs.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/stl/trex_stl_messaging.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/stl/trex_stl_port.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/stl/trex_stl_rpc_cmds.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/stl/trex_stl_stream_vm.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/stl/trex_stl_stream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/stl/trex_stl_streams_compiler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/stl/trex_stl_vm_splitter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/stl/trex_stl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/stl/trex_stl_tpg.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/astf/trex_astf_dp_core.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/astf/trex_astf_messaging.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/astf/trex_astf_port.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/astf/trex_astf_rpc_cmds.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/astf/trex_astf_rx_core.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/astf/trex_astf_topo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/astf/trex_astf.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/astf/trex_astf_mbuf_redirect.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stx/astf_batch/trex_astf_batch.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
